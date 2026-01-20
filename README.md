@@ -1,16 +1,27 @@
-## Hi there 👋
+# Hi, I'm Subhranil Kar 👋
 
-<!--
-**SubhranilKar18/SubhranilKar18** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+*3rd Year B.E. student in Electronics and Telecommunication Engineering at Jadavpur University*
 
-Here are some ideas to get you started:
+I am an aspiring engineer focused on bridging the gap between theoretical circuit analysis and practical implementation. I specialize in analog circuit design, mixed-signal simulations, and technical documentation.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+### 🛠️ Technical Toolbox
+* *Simulation & Design:* LTspice (Advanced DC/AC/transient Analysis), MATLAB, Simulink.
+* *Hardware:*  8085 Microprocessor.
+* *Languages:* C, C++, Verilog HDL, Python.
+
+---
+
+### 📈 Featured Projects
+#### 🟢 [Circuit Simulation using LTSpice ]
+A structured series of simulations exploring circuit theorems and analog behaviors.
+* *Wheatstone Bridge Analysis:* Investigated bridge sensitivity and verified quadratic power relationships using multi-pane DC sweeps.
+* *Thevenin & Norton Equivalents:* (Coming Soon) Simplifying complex networks into efficient equivalent models.
+
+---
+
+### 📫 Connect with Me
+* [LinkedIn](https://www.linkedin.com/in/subhranil-kar-n046535284/)
+* [Email](mailto:subhranilkec101@gmail.com)
+*
