@@ -14,7 +14,7 @@ I am an aspiring engineer focused on bridging the gap between theoretical circui
 ---
 
 ### 📈 Featured Projects
-#### 🟢 Circuit Theory to Implementation Using LTSpice
+#### 🟢 Circuit-Theory-to-Implementation Using LTSpice
 A structured series of simulations exploring circuit theorems and analog behaviors.
 * *Wheatstone Bridge Analysis:* Investigated bridge sensitivity and verified quadratic power relationships using multi-pane DC sweeps.
 * *Thevenin & Norton Equivalents:* (Coming Soon) Simplifying complex networks into efficient equivalent models.
