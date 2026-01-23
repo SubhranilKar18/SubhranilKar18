@@ -1,7 +1,7 @@
 # Hi, I'm Subhranil Kar 👋
 **3rd Year B.E. student in Electronics and Telecommunication Engineering at Jadavpur University**
 
-I am an aspiring engineer focused on bridging the gap between theoretical circuit analysis and practical implementation. I specialize in analog circuit design, mixed-signal simulations, and technical documentation.
+I am an aspiring engineer focused on bridging the gap between theoretical circuit analysis and practical implementation. I have strong fundamentals in analog circuit design, mixed-signal simulations, and technical documentation.
 
 ### 🛠️ Technical Toolbox
 * **Simulation & Design:** LTspice (Advanced DC/AC/Transient), MATLAB, Simulink.
