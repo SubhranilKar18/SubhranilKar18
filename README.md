@@ -1,27 +1,24 @@
 # Hi, I'm Subhranil Kar 👋
-
-*3rd Year B.E. student in Electronics and Telecommunication Engineering at Jadavpur University*
+**3rd Year B.E. student in Electronics and Telecommunication Engineering at Jadavpur University**
 
 I am an aspiring engineer focused on bridging the gap between theoretical circuit analysis and practical implementation. I specialize in analog circuit design, mixed-signal simulations, and technical documentation.
 
----
-
 ### 🛠️ Technical Toolbox
-* *Simulation & Design:* LTspice (Advanced DC/AC/transient Analysis), MATLAB, Simulink.
-* *Hardware:*  8085 Microprocessor.
-* *Languages:* C, C++, Verilog HDL, Python.
-
----
+* **Simulation & Design:** LTspice (Advanced DC/AC/Transient), MATLAB, Simulink.
+* **Analysis Techniques:** Transfer Function (`.tf`) analysis, Parameterized Measurement (`.meas`), and DC Operating Point optimization.
+* **Hardware & HDLs:** 8085 Microprocessor, Verilog HDL , FPGA.
+* **Languages:** C, C++, MATLAB & Python.
 
 ### 📈 Featured Projects
-#### 🟢 Circuit-Theory-to-Implementation Using LTSpice
+#### 🟢 [Circuit-Theory-to-Implementation Using LTSpice](https://github.com/SubhranilKar18/Circuit-Theory-to-Implementation-Using-LTSpice)
 A structured series of simulations exploring circuit theorems and analog behaviors.
-* *Wheatstone Bridge Analysis:* Investigated bridge sensitivity and verified quadratic power relationships using multi-pane DC sweeps.
-* *Thevenin & Norton Equivalents:* (Coming Soon) Simplifying complex networks into efficient equivalent models.
 
----
+* **Thevenin & Norton Equivalents:** Simplified complex unbalanced bridge networks into efficient equivalent models. Verified results using the 1A Test Source method and Short-Circuit current probing.
+* **Wheatstone Bridge Analysis:** Investigated bridge sensitivity and verified quadratic power relationships using multi-pane DC sweeps.
+
+### 🧪 Engineering Approach
+* **Problem Solving:** Proven ability to troubleshoot and optimize SPICE simulations for accurate data extraction, including resolving evaluation errors in static DC measurements.
+* **Rigorous Verification:** Committed to cross-verifying simulation results with manual theoretical derivations to ensure design reliability.
 
 ### 📫 Connect with Me
-* [LinkedIn](https://www.linkedin.com/in/subhranil-kar-n046535284/)
-* [Email](mailto:subhranilkec101@gmail.com)
-
+[LinkedIn](https://www.linkedin.com/in/subhranil-kar-a3a830230/) | [Email](mailto:your-email@example.com)
