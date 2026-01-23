@@ -13,9 +13,11 @@ I am an aspiring engineer focused on bridging the gap between theoretical circui
 #### 🟢 [Circuit-Theory-to-Implementation Using LTSpice](https://github.com/SubhranilKar18/Circuit-Theory-to-Implementation-Using-LTSpice)
 A structured series of simulations exploring circuit theorems and analog behaviors.
 
-* **Maximum Power Transfer Analysis:** Demonstrated the **Maximum Power Transfer Theorem** by using .step parameter sweeps valure of Rload to identify the 1045.45 $\Omega$ load resistance required for peak power delivery.
-* **Thevenin & Norton Equivalents:** Simplified complex unbalanced bridge networks into efficient equivalent models. Verified results using the 1A Test Source method and Short-Circuit current probing.
 * **Wheatstone Bridge Analysis:** Investigated bridge sensitivity and verified quadratic power relationships using multi-pane DC sweeps.
+
+* **Thevenin & Norton Equivalents:** Simplified complex unbalanced bridge networks into efficient equivalent models. Verified results using the 1A Test Source method and Short-Circuit current probing.
+
+* **Maximum Power Transfer Analysis:** Demonstrated the **Maximum Power Transfer Theorem** by using .step parameter sweeps valure of Rload to identify the 1045.45 $\Omega$ load (i.e. Rth  calculated from previous simulation) resistance required for peak power delivery.
 
 ### 🧪 Engineering Approach
 * **Problem Solving:** Proven ability to troubleshoot and optimize SPICE simulations for accurate data extraction, including resolving evaluation errors in static DC measurements.
