@@ -13,6 +13,8 @@ I am an aspiring engineer focused on bridging the gap between theoretical circui
 #### 🟢 [Circuit-Theory-to-Implementation Using LTSpice](https://github.com/SubhranilKar18/Circuit-Theory-to-Implementation-Using-LTSpice)
 A structured series of simulations exploring circuit theorems and analog behaviors.
 
+* **First-Order Transient Response (RC & RL):** Conducted a comparative study of energy storage dynamics. Verified the duality between capacitor voltage charging and inductor current energizing using PULSE source characterization and automated $\tau$ extraction.
+
 * **Maxwell Inductance-Capacitance Bridge:** Proved the frequency-independent balance condition of AC bridges. Analyzed the transition from **Zero-Order behavior** to high-frequency second-order roll-off caused by **Pole-Zero mismatch** in the SPICE solver.
 
 * **Maximum Power Transfer Analysis:** Demonstrated the **Maximum Power Transfer Theorem** by using `.step` parameter sweeps to identify the exact load resistance ($R_L = R_{th}$) required for peak power delivery.
@@ -23,6 +25,7 @@ A structured series of simulations exploring circuit theorems and analog behavio
 
 ### 🧪 Engineering Approach
 * **System Dynamics:** Understanding the physical order of circuits and how pole-zero cancellations can be used to linearize system responses.
+* **Time & Frequency Duality:** Proficient in analyzing circuits across both domains—utilizing `.tran` for switching dynamics and `.ac` for steady-state stability.
 * **Computational Insight:** Ability to differentiate between ideal theoretical results and simulation limitations (e.g., numerical noise floor in high-accuracy AC nulls).
 * **Rigorous Verification:** Committed to cross-verifying simulation results with manual theoretical derivations (e.g., equate real and imaginary parts of complex impedance) to ensure design reliability.
 
