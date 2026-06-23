@@ -1,7 +1,7 @@
 # Hi, I'm Subhranil Kar 👋
 **3rd Year B.E. student in Electronics and Telecommunication Engineering at Jadavpur University**
 
-I am an aspiring engineer focused on bridging the gap between theoretical circuit analysis and practical implementation. I have strong fundamentals in analog circuit design, mixed-signal simulations, and technical documentation.
+I am trying to focus on bridging the gap between theoretical circuit analysis and practical implementation. I have strong fundamentals in analog circuit design and simulations, and technical documentation.
 
 ### 🛠️ Technical Toolbox
 * **Simulation & Design:** LTspice (Advanced DC/AC/Transient), MATLAB, Simulink.
@@ -12,6 +12,12 @@ I am an aspiring engineer focused on bridging the gap between theoretical circui
 ### 📈 Featured Projects
 #### 🟢 [Circuit-Theory-to-Implementation Using LTSpice](https://github.com/SubhranilKar18/Circuit-Theory-to-Implementation-Using-LTSpice)
 A structured series of simulations exploring circuit theorems and analog behaviors.
+
+* **Common Drain (Source Follower) Amplifier:** Designed a high-speed voltage buffer stage using a 180nm bulk CMOS process. Simulated impedance transformations to protect high-gain active blocks from heavy loading, and mapped sub-micron non-idealities like the physical **Body Effect** ($g_{mb}$).
+
+* **Common Source Amplifier Stage:** Characterized a 180nm active CMOS gain stage using voltage divider bias. Analyzed high-pass roll-off driven by input/output coupling networks and high-frequency constraints imposed by Miller-multiplied device parasitics.
+
+* **MOSFET Characterization:** Mapped nested `.dc` sweeps of discrete and sub-micron transistors. Extracted threshold voltage ($V_{th}$) and plotted real-time transconductance profiles using `d(Id(M1))`.
 
 * **First-Order Transient Response (RC & RL):** Conducted a comparative study of energy storage dynamics. Verified the duality between capacitor voltage charging and inductor current energizing using PULSE source characterization and automated $\tau$ extraction.
 
