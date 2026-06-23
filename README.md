@@ -121,7 +121,7 @@
 
 - 🟢 Deepening op-amp non-ideality analysis (offset, slew rate, GBW trade-offs)
 - 🟢 Moving from schematic-level sims toward physical layout considerations
-- 🟢 Strengthening fundamentals in active filter design, noise analysis, and amplifier frequency compensation
+- 🟢 Strengthening fundamentals in active circuit design, noise analysis, and amplifier frequency compensation
 
 <img src="assests/Signal_trace.svg" width="100%">
 
