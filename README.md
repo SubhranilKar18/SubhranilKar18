@@ -1,39 +1,99 @@
-# Hi, I'm Subhranil Kar 👋
-**3rd Year B.E. student in Electronics and Telecommunication Engineering at Jadavpur University**
+<div align="center">
 
-I am trying to focus on bridging the gap between theoretical circuit analysis and practical implementation. I have strong fundamentals in analog circuit design and simulations, and technical documentation.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1b4332,100:b87333&height=190&section=header&text=Subhranil%20Kar&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Analog%20%26%20Mixed-Signal%20Circuit%20Design%20%7C%20Jadavpur%20University&descAlignY=58&descSize=16" width="100%"/>
 
-### 🛠️ Technical Toolbox
-* **Simulation & Design:** LTspice (Advanced DC/AC/Transient), MATLAB, Simulink.
-* **Analysis Techniques:** Frequency Response (Bode Plots), Pole-Zero Analysis, Transfer Function (`.tf`), and Parameterized Measurement (`.meas`).
-* **Hardware & HDLs:** 8085 Microprocessor, Verilog HDL, FPGA.
-* **Languages:** C, C++, MATLAB & Python.
+<img src="https://readme-typing-svg.demolab.com/?lines=Bridging+Circuit+Theory+%26+Hardware+Implementation;LTspice+%7C+MATLAB+%7C+Verilog+HDL+%7C+FPGA;Validating+Every+Design+Through+Rigorous+Simulation&font=Fira%20Code&size=18&pause=1200&color=b87333&center=true&vCenter=true&width=680&height=40&duration=3500" alt="Typing SVG" />
 
-### 📈 Featured Projects
-#### 🟢 [Circuit-Theory-to-Implementation Using LTSpice](https://github.com/SubhranilKar18/Circuit-Theory-to-Implementation-Using-LTSpice)
-A structured series of simulations exploring circuit theorems and analog behaviors.
+<img src="https://img.shields.io/badge/STATUS-ON%20THE%20BENCH-39ff88?style=for-the-badge&logoColor=white&labelColor=1b4332" />
 
-* **Common Drain (Source Follower) Amplifier:** Designed a high-speed voltage buffer stage using a 180nm bulk CMOS process. Simulated impedance transformations to protect high-gain active blocks from heavy loading, and mapped sub-micron non-idealities like the physical **Body Effect** ($g_{mb}$).
+</div>
 
-* **Common Source Amplifier Stage:** Characterized a 180nm active CMOS gain stage using voltage divider bias. Analyzed high-pass roll-off driven by input/output coupling networks and high-frequency constraints imposed by Miller-multiplied device parasitics.
+<img src="assets/signal-trace.svg" width="100%">
 
-* **MOSFET Characterization:** Mapped nested `.dc` sweeps of discrete and sub-micron transistors. Extracted threshold voltage ($V_{th}$) and plotted real-time transconductance profiles using `d(Id(M1))`.
+## 🔧 Bill of Materials — Simulation & Design
 
-* **First-Order Transient Response (RC & RL):** Conducted a comparative study of energy storage dynamics. Verified the duality between capacitor voltage charging and inductor current energizing using PULSE source characterization and automated $\tau$ extraction.
+| Ref | Component | Function |
+|:---:|:----------|:---------|
+| U1 | **LTspice** | Advanced DC / AC / Transient analysis |
+| U2 | **MATLAB** | Numerical computation & signal processing |
+| U3 | **Simulink** | System-level block modeling |
 
-* **Maxwell Inductance-Capacitance Bridge:** Proved the frequency-independent balance condition of AC bridges. Analyzed the transition from **Zero-Order behavior** to high-frequency second-order roll-off caused by **Pole-Zero mismatch** in the SPICE solver.
+## 🔧 Bill of Materials — Hardware & HDL
 
-* **Maximum Power Transfer Analysis:** Demonstrated the **Maximum Power Transfer Theorem** by using `.step` parameter sweeps to identify the exact load resistance ($R_L = R_{th}$) required for peak power delivery.
+| Ref | Component | Function |
+|:---:|:----------|:---------|
+| U4 | **8085 Microprocessor** | Architecture & assembly |
+| U5 | **Verilog HDL** | RTL design |
+| U6 | **FPGA** | Hardware prototyping |
 
-* **Thevenin & Norton Equivalents:** Simplified complex unbalanced bridge networks into equivalent models. Verified results using the 1A Test Source method and Short-Circuit current probing.
+## 🔧 Bill of Materials — Measurement & Analysis
 
-* **Wheatstone Bridge Analysis:** Investigated bridge sensitivity and verified quadratic power relationships using multi-pane DC sweeps.
+| Ref | Component | Function |
+|:---:|:----------|:---------|
+| M1 | **Bode Plots** | Frequency response |
+| M2 | **Pole-Zero Analysis** | System stability mapping |
+| M3 | **`.tf`** | Transfer function extraction |
+| M4 | **`.meas` / `.step`** | Parameterized measurement & sweeps |
 
-### 🧪 Engineering Approach
-* **System Dynamics:** Understanding the physical order of circuits and how pole-zero cancellations can be used to linearize system responses.
-* **Time & Frequency Duality:** Proficient in analyzing circuits across both domains—utilizing `.tran` for switching dynamics and `.ac` for steady-state stability.
-* **Computational Insight:** Ability to differentiate between ideal theoretical results and simulation limitations (e.g., numerical noise floor in high-accuracy AC nulls).
-* **Rigorous Verification:** Committed to cross-verifying simulation results with manual theoretical derivations (e.g., equate real and imaginary parts of complex impedance) to ensure design reliability.
+## 🔧 Languages
 
-### 📫 Connect with Me
-[LinkedIn](https://www.linkedin.com/in/subhranil-kar-a3a830230/) | [Email](mailto:subhranilkar.ece@gmail.com)
+<div align="center">
+<img src="https://skillicons.dev/icons?i=c,cpp,python,matlab" />
+</div>
+
+<img src="assets/signal-trace.svg" width="100%">
+
+## 📋 Schematic Sheet — Featured Project
+
+### ⚡ [Circuit Theory to Implementation Using LTSpice](https://github.com/SubhranilKar18/Circuit-Theory-to-Implementation-Using-LTSpice)
+
+> A structured series of simulations exploring fundamental circuit theorems, analog behaviors, and sub-micron CMOS characteristics.
+
+**Sheet 1 — Active Devices (180nm CMOS)**
+- **Common Drain (Source Follower)** — high-speed voltage buffer; impedance transformation to protect high-gain blocks from heavy loading; mapped sub-micron body effect ($g_{mb}$).
+- **Common Source Amplifier** — voltage-divider-biased gain stage; high-pass roll-off from coupling networks; high-frequency limits from Miller-multiplied parasitics.
+- **MOSFET Characterization** — nested `.dc` sweeps; extracted $V_{th}$; real-time transconductance via `d(Id(M1))`.
+
+**Sheet 2 — Passive Networks**
+- **First-Order RC & RL Transients** — duality between capacitor charging and inductor energizing, via automated $\tau$ extraction.
+- **Maxwell L-C Bridge** — frequency-independent balance condition; roll-off from numerical pole-zero mismatch.
+- **Maximum Power Transfer** — `.step` sweeps to find $R_L = R_{th}$.
+- **Thevenin / Norton / Wheatstone Bridges** — simplified via the 1A test-source method; verified quadratic power relations via multi-pane DC sweeps.
+
+<img src="assets/signal-trace.svg" width="100%">
+
+## 🧪 Engineering Approach
+
+```
+Input ──[ Pole-Zero Cancellation ]──▶[ .tran / .ac Duality ]──▶[ SPICE vs. Theory Check ]──▶ Verified Output
+```
+
+🔍 Every simulation log is cross-checked against manual derivation — e.g. equating real & imaginary parts of complex impedance — before a design is trusted.
+
+<img src="assets/signal-trace.svg" width="100%">
+
+## 🔬 Currently On The Test Bench
+
+- 🟢 Deepening op-amp non-ideality analysis (offset, slew rate, GBW trade-offs)
+- 🟢 Moving from schematic-level sims toward physical layout considerations
+- 🟢 Exploring mixed-signal interfacing between analog front-ends and FPGA logic
+
+<img src="assets/signal-trace.svg" width="100%">
+
+## 📫 Let's Connect
+
+<div align="center">
+
+<a href="https://www.linkedin.com/in/subhranil-kar-a3a830230/">
+  <img src="https://img.shields.io/badge/LinkedIn-1b4332?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+<a href="mailto:subhranilkar.ece@gmail.com">
+  <img src="https://img.shields.io/badge/Email-b87333?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+<a href="https://github.com/SubhranilKar18">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:b87333,100:1b4332&height=90&section=footer" width="100%"/>
