@@ -30,10 +30,10 @@
 
 ```
                     ┌──────────────────────┐
-        CURIOSITY ──┤ 1                  8 ├── VERIFIED_OUTPUT
-      FUNDAMENTALS ──┤ 2      SK-2026       7 ├── LTSPICE
+        CURIOSITY ──┤ 1                  8 ├──  LTSPICE
+      FUNDAMENTALS ──┤ 2      SK-2026       7 ├── VCC
            MATLAB ──┤ 3     (TOP VIEW)      6 ├── VERILOG
-               GND ──┤ 4                   5 ├── VCC 
+               GND ──┤ 4                   5 ├── VERIFIED_OUTPUT
                     └──────────────────────┘
 ```
 
