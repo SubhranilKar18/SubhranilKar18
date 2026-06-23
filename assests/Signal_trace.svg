@@ -1,18 +1,24 @@
 <svg width="100%" height="130" viewBox="0 0 1200 130" xmlns="http://www.w3.org/2000/svg">
 
-  <!-- main signal line (unbroken) -->
-  <line x1="20" y1="50" x2="1180" y2="50" stroke="#b87333" stroke-width="2.5"/>
+  <!-- Segment 1: INPUT to op-amp input -->
+  <line x1="20" y1="50" x2="140" y2="50" stroke="#b87333" stroke-width="2.5"/>
 
   <!-- Op-amp stage 1 (gain block) -->
   <polygon points="140,25 140,75 215,50" fill="none" stroke="#b87333" stroke-width="2.5"/>
   <text x="120" y="38" font-family="monospace" font-size="13" fill="#39ff88">+</text>
   <text x="120" y="65" font-family="monospace" font-size="13" fill="#39ff88">−</text>
 
-  <!-- Resistor (series element on main line) -->
+  <!-- Segment 2: op-amp output to resistor start -->
+  <line x1="215" y1="50" x2="350" y2="50" stroke="#b87333" stroke-width="2.5"/>
+
+  <!-- Resistor (series element, no wire runs parallel to it) -->
   <polyline points="350,50 360,35 374,65 388,35 402,65 416,35 430,50"
             fill="none" stroke="#b87333" stroke-width="2.5" stroke-linejoin="round"/>
 
-  <!-- Capacitor branch to ground (shunt element, T-junction off main line) -->
+  <!-- Segment 3: resistor end, through capacitor tee, to buffer input -->
+  <line x1="430" y1="50" x2="750" y2="50" stroke="#b87333" stroke-width="2.5"/>
+
+  <!-- Capacitor branch to ground (shunt element, taps the continuous wire) -->
   <line x1="530" y1="50" x2="530" y2="78" stroke="#b87333" stroke-width="2"/>
   <line x1="512" y1="80" x2="548" y2="80" stroke="#b87333" stroke-width="3"/>
   <line x1="512" y1="88" x2="548" y2="88" stroke="#b87333" stroke-width="3"/>
@@ -23,6 +29,9 @@
 
   <!-- Buffer stage (output amplifier) -->
   <polygon points="750,25 750,75 825,50" fill="none" stroke="#b87333" stroke-width="2.5"/>
+
+  <!-- Segment 4: buffer output to OUTPUT -->
+  <line x1="825" y1="50" x2="1180" y2="50" stroke="#b87333" stroke-width="2.5"/>
 
   <!-- Labels -->
   <text x="20" y="15" font-family="monospace" font-size="14" fill="#b87333">INPUT</text>
