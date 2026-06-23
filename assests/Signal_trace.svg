@@ -1,17 +1,44 @@
-<svg width="100%" height="50" viewBox="0 0 1200 50" xmlns="http://www.w3.org/2000/svg">
-  <line x1="0" y1="25" x2="1200" y2="25" stroke="#b87333" stroke-width="2.5"/>
-  <polyline points="260,25 270,12 282,38 294,12 306,38 318,12 330,38 340,25"
+<svg width="100%" height="130" viewBox="0 0 1200 130" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- main signal line (unbroken) -->
+  <line x1="20" y1="50" x2="1180" y2="50" stroke="#b87333" stroke-width="2.5"/>
+
+  <!-- Op-amp stage 1 (gain block) -->
+  <polygon points="140,25 140,75 215,50" fill="none" stroke="#b87333" stroke-width="2.5"/>
+  <text x="120" y="38" font-family="monospace" font-size="13" fill="#39ff88">+</text>
+  <text x="120" y="65" font-family="monospace" font-size="13" fill="#39ff88">−</text>
+
+  <!-- Resistor (series element on main line) -->
+  <polyline points="350,50 360,35 374,65 388,35 402,65 416,35 430,50"
             fill="none" stroke="#b87333" stroke-width="2.5" stroke-linejoin="round"/>
-  <line x1="600" y1="6" x2="600" y2="44" stroke="#b87333" stroke-width="3.5"/>
-  <line x1="616" y1="6" x2="616" y2="44" stroke="#b87333" stroke-width="3.5"/>
-  <circle cx="940" cy="25" r="5" fill="#0d1b14" stroke="#b87333" stroke-width="2.5"/>
-  <circle cx="940" cy="25" r="2" fill="#b87333"/>
-  <circle cy="25" r="6" fill="#39ff88">
-    <animate attributeName="cx" values="0;1200" dur="3.2s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.9;1" dur="3.2s" repeatCount="indefinite"/>
+
+  <!-- Capacitor branch to ground (shunt element, T-junction off main line) -->
+  <line x1="530" y1="50" x2="530" y2="78" stroke="#b87333" stroke-width="2"/>
+  <line x1="512" y1="80" x2="548" y2="80" stroke="#b87333" stroke-width="3"/>
+  <line x1="512" y1="88" x2="548" y2="88" stroke="#b87333" stroke-width="3"/>
+  <line x1="530" y1="88" x2="530" y2="98" stroke="#b87333" stroke-width="2"/>
+  <line x1="518" y1="100" x2="542" y2="100" stroke="#b87333" stroke-width="2"/>
+  <line x1="522" y1="106" x2="538" y2="106" stroke="#b87333" stroke-width="2"/>
+  <line x1="526" y1="112" x2="534" y2="112" stroke="#b87333" stroke-width="2"/>
+
+  <!-- Buffer stage (output amplifier) -->
+  <polygon points="750,25 750,75 825,50" fill="none" stroke="#b87333" stroke-width="2.5"/>
+
+  <!-- Labels -->
+  <text x="20" y="15" font-family="monospace" font-size="14" fill="#b87333">INPUT</text>
+  <text x="177" y="15" font-family="monospace" font-size="13" fill="#b87333" text-anchor="middle">A1</text>
+  <text x="390" y="28" font-family="monospace" font-size="13" fill="#b87333" text-anchor="middle">R</text>
+  <text x="530" y="128" font-family="monospace" font-size="13" fill="#b87333" text-anchor="middle">C</text>
+  <text x="787" y="15" font-family="monospace" font-size="13" fill="#b87333" text-anchor="middle">BUFFER</text>
+  <text x="1180" y="15" font-family="monospace" font-size="14" fill="#b87333" text-anchor="end">OUTPUT</text>
+
+  <!-- traveling signal pulse -->
+  <circle cy="50" r="6" fill="#39ff88">
+    <animate attributeName="cx" values="20;1180" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.9;1" dur="4s" repeatCount="indefinite"/>
   </circle>
-  <circle cy="25" r="11" fill="#39ff88" opacity="0.25">
-    <animate attributeName="cx" values="0;1200" dur="3.2s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0;0.25;0.25;0" keyTimes="0;0.05;0.9;1" dur="3.2s" repeatCount="indefinite"/>
+  <circle cy="50" r="11" fill="#39ff88" opacity="0.25">
+    <animate attributeName="cx" values="20;1180" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.25;0.25;0" keyTimes="0;0.05;0.9;1" dur="4s" repeatCount="indefinite"/>
   </circle>
 </svg>
