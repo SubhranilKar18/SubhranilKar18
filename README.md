@@ -6,7 +6,7 @@
 
 <br/><br/>
 
-<img src="https://readme-typing-svg.demolab.com/?lines=DATASHEET+%E2%80%94+REV+1.0+%E2%80%94+JUNE+2026;Subhranil+Kar+%7C+Jadavpur+University+%7C+ETCE;Status%3A+Active+Development+%2F+Not+Yet+in+Mass+Production&font=Fira%20Code&size=16&pause=1200&color=b87333&center=true&vCenter=true&width=700&height=35&duration=3500" />
+<img src="https://readme-typing-svg.demolab.com/?lines=DATASHEET+%E2%80%94+REV+1.0+%E2%80%94+JUNE+2026;Subhranil+Kar+%7C+Jadavpur+University+%7C+ETCE;Status%3A+Active+Development+%2F+Not+Yet+in+Advanced+Nod&font=Fira%20Code&size=16&pause=1200&color=1565C0&center=true&vCenter=true&width=700&height=35&duration=3500" />
 
 </div>
 
