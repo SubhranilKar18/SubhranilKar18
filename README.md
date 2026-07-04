@@ -130,7 +130,7 @@
 | Order Code | Channel | Link |
 |:--:|:--|:--|
 | SK-2026-LI | LinkedIn | [Connect](https://www.linkedin.com/in/subhranil-kar-a3a830230/) |
-| SK-2026-EM | Email | [subhranilkar.ece@gmail.com](mailto:subhranilkar.ece@gmail.com) |
+| SK-2026-EM | Email | [subhranilkar.ece@gmail.com](mailto:subhranilkec101@gmail.com) |
 | SK-2026-GH | GitHub | [@SubhranilKar18](https://github.com/SubhranilKar18) |
 
 <div align="center">
